@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: MADE;
+  src: url(./fonts/MADE-Soulmaze-Italic.woff);
+}
+@font-face {
+  font-family: AzoSans;
+  src: url(./fonts/AzoSans-Medium.woff);
+}
+body {
+  text-align: center;
+  background: #113459;
+  font-family: MADE;
+}
+
+h1 {
+  color: #2BF41E;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv {
+  color: #2BF41E;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv>div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #113459;
+  display: inline-block;
+  font-family: AzoSans;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#clockdiv div>span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #113459;
+  display: inline-block;
+  font-family: MADE;
+  color: #2BF41E;
+  font-size: 48px;
+}
+
+smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+  font-family: AzoSans;
+}
